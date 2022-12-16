@@ -94,7 +94,7 @@ $font-sizes: (
 
 $form-select-color: #6c757d;
 
-$nav-link-font-size: $font-size-base * 0.7;
+$nav-link-font-size: $font-size-base * 1.2;
 
 
 
@@ -125,10 +125,11 @@ $utilities: (
         property: border-bottom,
         state: hover,
         values: (
-          null: var(--bs-border-width) var(--bs-border-style) $color-amarillo-crema,
+          null: var(--bs-border-width) var(--bs-border-style) $dark,
           0: 0,
           50: 3px var(--bs-border-style) $color-amarillo-crema,
           101: 1px dashed #ffffff,
+          nav: var(--bs-border-width) var(--bs-border-style) $color-amarillo-crema
         )
       ),
       "width": (
@@ -147,6 +148,8 @@ $utilities: (
           300: 300px,
           400: 400px,
           500: 500px,
+          600: 600px,
+          700: 700px
         ),
       ),
       "height": (
